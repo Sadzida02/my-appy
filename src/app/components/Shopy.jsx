@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import Image from "next/image";
-import { initialize } from "next/dist/server/lib/render-server";
+// import { initialize } from "next/dist/server/lib/render-server";
 
 // async function getCards() {
 //     const response = await fetch('http://localhost:3000/cards', {

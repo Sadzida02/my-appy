@@ -1,12 +1,12 @@
 'use client'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
-// import SignIn from './SignIn';
+import SignIn from '../components/SignIn';
 import { Fragment } from "react";
 import { useState } from 'react';
 
 export default function Navbar() {
-    // const [showSignin, setShowSignin] = useState(false);
+    const [showSignin, setShowSignin] = useState(false);
     return (
         <Fragment>
         <nav className="bg-white text-myBrown flex flex-col w-full font-lexend fixed top-0 z-50 shadow-lg">
@@ -38,7 +38,7 @@ export default function Navbar() {
 
             
         </nav>
-        {/* <SignIn isVisible={ showSignin } onClose={() => setShowSignin(false)}/> */}
+        { <SignIn isVisible={ showSignin } onClose={() => setShowSignin(false)}/>}
         </Fragment>
 
     );

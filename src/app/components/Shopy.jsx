@@ -50,7 +50,7 @@ export default async function Shopy() {
                             <span className="text-slate-400 px-2 text-sm">{card.category}</span>
                             <FontAwesomeIcon className="inline w-5 left-0" icon={faHeart}/>
                         </div>
-                        <a href="#" className="font-bold md:text-xl px-2">{card.name}</a>
+                        <a href={`../shopy/${card.id}`} className="font-bold md:text-xl px-2">{card.name}</a>
                         <span className="flex text-xl p-2 text-myBrown">{card.price}</span> 
                         <div className="flex justify-end">
                             <button className="flex justify-items-end bg-myBrown hover:bg-[#9E5C25] p-2 rounded text-white text-[14px] ">

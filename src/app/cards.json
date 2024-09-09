@@ -1,84 +1,84 @@
 {"cards":[
     {
         "id": "1",
-        "image":"/public/1.jpg",
+        "image":"/1.jpg",
         "category":"[FOOD]",
         "name": "The Baklava",
         "price":"$7.99"
     },
     {
         "id": "2",
-        "image":"/../../2.jpeg",
+        "image":"/2.jpeg",
         "category": "[FOOD]",
         "name": "Cheesecake",
         "price":"$7.99"
     },
     {
         "id": "3",
-        "image":"/../../3.jpg",
+        "image":"/3.jpg",
         "category": "[FOOD]",
         "name": "Ljiljan",
         "price":"$6.99"
     },
     {
         "id": "4",
-        "image":"/../../4.jpeg",
+        "image":"/4.jpeg",
         "category": "[FOOD]",
         "name": "Ćevapi",
         "price":"$6.99"
     },
     {
         "id": "5",
-        "image":"/../../5.jpg",
+        "image":"/5.jpg",
         "category": "[FIGURINES]",
         "name": "The Bee",
         "price":"$4.99"
     },
     {
         "id": "6",
-        "image":"/../../6.jpg",
+        "image":"/6.jpg",
         "category": "[FOOD]",
         "name": "The Pringles",
         "price":"$6.99"
     },
     {
         "id": "7",
-        "image":"/../../7.jpg",
+        "image":"/7.jpg",
         "category": "[FOOD]",
         "name": "The Kunefe",
         "price":"$7.99"
     },
     {
         "id": "8",
-        "image":"/../../8.jpg",
+        "image":"/8.jpg",
         "category": "[FLOWERS]",
         "name": "Roses",
         "price":"$7.99"
     },
     {
         "id": "9",
-        "image":"/../../9.jpg",
+        "image":"/9.jpg",
         "category": "[NECKLACES]",
         "name": "Dandellion",
         "price":"$6.99"
     },
     {
         "id": "10",
-        "image":"/../../10.jpg",
+        "image":"/10.jpg",
         "category": "[CUSTOM]",
         "name": "The Fes",
         "price":"$5.99"
     },
     {
         "id": "11",
-        "image":"/../../11.jpg",
+        "image":"/11.jpg",
         "category":"[FOOD]",
         "name": "Munchmallow",
         "price":"$5.99"
     },
     {
         "id": "12",
-        "image":"/../../12.jpg",
+        "image":"/12.jpg",
         "category":"[CUSTOM]",
         "name": "The Marlboro",
         "price":"$6.99"

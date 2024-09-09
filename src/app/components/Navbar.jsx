@@ -30,6 +30,7 @@ export default function Navbar() {
             <div className="flex flex-row h-1/4 justify-center py-2">
                 <ul className="flex flex-row">
                     <li><a className="px-4" href="/shopy">Shop</a></li>
+                    <li><a className="px-4" href="/">Home</a></li>
                     <li><a className="px-4" href="#">Our Story</a></li>
                     <li><a className="px-4" href="#">Contact us</a></li>
                     <li><a className="px-4" href="#">Special Deals</a></li>

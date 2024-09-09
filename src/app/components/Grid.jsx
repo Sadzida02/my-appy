@@ -24,7 +24,7 @@ export default async function Grid() {
             <div className="container">
                 <div id="grid-container" className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-5 gap-3 p-4 max-w-[1240px] ">
                 {cards.map((card) => (
-                    <div key={card.id} id="card" className="bg-white rounded-md overflow-hidden shadow-xl flex-col flex hover:animate-pulse">
+                    <div  key={card.id} id="card" className="bg-white rounded-md overflow-hidden shadow-xl flex-col flex hover:animate-pulse">
                     
                     <Image
                     src={card.image}
@@ -38,7 +38,7 @@ export default async function Grid() {
                             <span className="text-slate-400 px-2 text-sm">{card.category}</span>
                             <FontAwesomeIcon className="inline w-5 left-0" icon={faHeart}/>
                         </div>
-                        <a className="font-bold md:text-md px-2" href={`../shopPage/${card.id}`}>{card.name}</a>
+                        <a href={`../shopy/${card.id}`}className="font-bold md:text-md px-2">{card.name}</a>
                         <span className="flex text-xl p-2 text-myBrown">{card.price}</span> 
                         <div className="flex justify-end">
                             <button className="flex justify-items-end bg-myBrown hover:bg-[#9E5C25] p-2 rounded text-white text-[12px] ">

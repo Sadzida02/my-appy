@@ -8,8 +8,12 @@ function page() {
   return (
     <div>
       <Navbar />
-      <VerticalNav />
-      <Grid />      
+      <div className='flex'>
+        <VerticalNav />
+        <Grid />
+
+      </div>
+            
       <Footer />
 
     </div>

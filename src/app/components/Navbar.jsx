@@ -11,7 +11,7 @@ export default function Navbar() {
         <Fragment>
         <nav className="bg-white text-myBrown flex flex-col w-full font-lexend fixed top-0 z-50 shadow-lg">
             <div className="flex flex-row h-1/4 p-2">
-                <span className=" w-1/3 ml-4">Handmade in Bosnia and Herzegowina</span>
+                <span className=" w-1/3 ml-4">Handmade in Bosnia and Herzegovina</span>
                 <div className=" w-2/3 flex flex-row justify-end">
                     <div id="search">
                         <span>Search</span> 
@@ -23,13 +23,13 @@ export default function Navbar() {
                     </div>                           
             </div>
             <div className="text-chocolate h-2/4 text-center text-2xl pt-4">
-                <span className="font-koulen ">mymini.</span>
+                <a href="/" className="font-koulen ">mymini.</a>
                 <span>corner</span>
             </div>
 
             <div className="flex flex-row h-1/4 justify-center py-2">
                 <ul className="flex flex-row">
-                    <li><a className="px-4" href="#">Shop</a></li>
+                    <li><a className="px-4" href="/shopy">Shop</a></li>
                     <li><a className="px-4" href="#">Our Story</a></li>
                     <li><a className="px-4" href="#">Contact us</a></li>
                     <li><a className="px-4" href="#">Special Deals</a></li>

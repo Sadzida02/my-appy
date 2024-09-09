@@ -6,6 +6,7 @@ import Navbar from '../app/components/Navbar'
 import Posters from '../app/components/Posters';
 import Footer from '../app/components/Footer';
 import Shopy from '../app/components/Shopy'
+import About from '../app/components/About'
 // import { BrowserRouter as Router, Route, Switch 
 // } from 'react-router-dom';
 
@@ -19,6 +20,7 @@ const Page = () => {
         <Navbar></Navbar>  
           <Home></Home>
           <Posters></Posters>
+          <About />
           <Shopy></Shopy>
 
           <Footer></Footer>

@@ -25,7 +25,7 @@ export default function Footer() {
                 <span className="font-koulen p-1">Contact us</span>
                 <span className="p-1"><FontAwesomeIcon icon={faLocationDot} className="inline"></FontAwesomeIcon>&nbsp;Kakanj</span>
                 <span className="p-1"><FontAwesomeIcon icon={faLocationDot} className="inline"></FontAwesomeIcon>&nbsp;Sarajevo</span>
-                <span className="p-1"><FontAwesomeIcon icon={faEarthEurope} className="inline"></FontAwesomeIcon>&nbsp;Bosnia and Herzegowina</span>
+                <span className="p-1"><FontAwesomeIcon icon={faEarthEurope} className="inline"></FontAwesomeIcon>&nbsp;Bosnia and Herzegovina</span>
                 <span className="p-1"><FontAwesomeIcon icon={faPhone} className="inline w-4"></FontAwesomeIcon>&nbsp;+387 236 183</span>
             </div>
             
